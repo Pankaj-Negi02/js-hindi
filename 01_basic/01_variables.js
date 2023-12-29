@@ -10,3 +10,7 @@ accountPassword = "101010"
 accountCity = "Delhi"
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+/*
+Prefer not use to var because of issue in block scope and functional scope
+*/
